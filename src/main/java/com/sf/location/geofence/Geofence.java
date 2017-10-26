@@ -18,6 +18,11 @@ public class Geofence
 	 * Based from the following JavaScript SO answer:
 	 * http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula,
 	 * which is based on https://en.wikipedia.org/wiki/Haversine_formula (error rate: ~0.55%).
+     * @param lat1
+     * @param lon1
+     * @param lat2
+     * @param lon2
+     * @return 
 	 */
 	public static double getDistanceBetween(double lat1, double lon1, double lat2, double lon2) {
 	    double dLat = toRadians(lat2 - lat1);
