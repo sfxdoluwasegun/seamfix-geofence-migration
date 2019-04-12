@@ -4,7 +4,7 @@
 
   <groupId>com.sf.location</groupId>
   <artifactId>geofence</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-FINAL</version>
   <packaging>jar</packaging>
 
   <name>geofence</name>
